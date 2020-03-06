@@ -4,7 +4,7 @@ const util = require('util')
 const readFile = util.promisify(fs.readFile)
 
 module.exports = function(eleventyConfig) {
-  eleventyConfig.addLiquidShortcode('webpackAsset', async (name) => {
+  eleventyConfig.addNunjucksAsyncShortcode('webpackAsset', async (name) => {
     const manifestData = await readFile(
       path.resolve(__dirname, 'src/templates/includes/manifest.json'),
     )
@@ -24,10 +24,12 @@ module.exports = function(eleventyConfig) {
   )
 
   return {
+    markdownTemplateEngine: 'njk',
     dir: {
       input: 'src/templates',
       data: '../data',
       includes: 'includes',
+      layouts: 'layouts',
       output: 'build',
     },
   }
