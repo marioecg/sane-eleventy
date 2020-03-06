@@ -17,10 +17,7 @@
   },
   "dependencies": {
     "@dogstudio/highway": "^2.1.3",
-    "@selfaware/wool": "^0.2.1",
-    "choozy": "^0.0.6",
-    "focus-visible": "^5.0.2",
-    "picoapp": "^3.5.0"
+    "@selfaware/wool": "^0.2.1"
   },
   "devDependencies": {
     "@11ty/eleventy": "^0.10.0",

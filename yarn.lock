@@ -2811,11 +2811,6 @@ chokidar@^2.0.0, chokidar@^2.0.2, chokidar@^2.0.3, chokidar@^2.0.4:
   optionalDependencies:
     fsevents "^1.2.7"
 
-choozy@^0.0.6:
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/choozy/-/choozy-0.0.6.tgz#df66a6b018d0cbcd92105b0f247bb6462fd7d7fd"
-  integrity sha512-rAfp2NYPC56LbWvYZZ2RZGuvjbaT5gFwHguuw7Qmo/JOMAv6JfwP76y/hJmOHptEGfs8NAoX1Vt1g1jiuAc3XA==
-
 chownr@^1.0.1:
   version "1.1.3"
   resolved "https://registry.npmjs.org/chownr/-/chownr-1.1.3.tgz#42d837d5239688d55f303003a508230fa6727142"
@@ -4334,11 +4329,6 @@ evp_bytestokey@^1.0.0, evp_bytestokey@^1.0.3:
     md5.js "^1.3.4"
     safe-buffer "^5.1.1"
 
-evx@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/evx/-/evx-1.0.1.tgz#583030030b903668df0bfda1dcbbd9261089d76c"
-  integrity sha512-xqt9lIwtPmDkYpZ3tff5vP9WWfgILS/0lM/JBHfU9r1af/wJzo9DsGMTvJfWUtxIKBt75vdpgfxKfoFuDd59+g==
-
 execa@^0.7.0:
   version "0.7.0"
   resolved "https://registry.npmjs.org/execa/-/execa-0.7.0.tgz#944becd34cc41ee32a63a9faf27ad5a65fc59777"
@@ -4690,11 +4680,6 @@ flush-write-stream@^1.0.0:
   dependencies:
     inherits "^2.0.3"
     readable-stream "^2.3.6"
-
-focus-visible@^5.0.2:
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/focus-visible/-/focus-visible-5.0.2.tgz#4fae9cf40458b73c10701c9774c462e3ccd53caf"
-  integrity sha512-zT2fj/bmOgEBjqGbURGlowTmCwsIs3bRDMr/sFZz8Ly7VkEiwuCn9swNTL3pPuf8Oua2de7CLuKdnuNajWdDsQ==
 
 follow-redirects@1.5.10:
   version "1.5.10"
@@ -7767,23 +7752,10 @@ performance-now@^2.1.0:
   version "2.1.0"
   resolved "https://registry.npmjs.org/performance-now/-/performance-now-2.1.0.tgz#6309f4e0e5fa913ec1c69307ae364b4b377c9e7b"
 
-picoapp@^3.5.0:
-  version "3.5.0"
-  resolved "https://registry.yarnpkg.com/picoapp/-/picoapp-3.5.0.tgz#8a467025d0001b7be72df5bd1eb48967e5359531"
-  integrity sha512-cbxy8dBpSufP+m1FfBnOIIJbYarG8j2p5NdDXjWSVo3E+Pvdx5HYd9u3m67wHgbo2srFegMJeKsSLEkcp813gw==
-  dependencies:
-    evx "^1.0.1"
-    picostate "^1.4.0"
-
 picomatch@^2.0.4, picomatch@^2.0.5, picomatch@^2.0.7:
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-2.2.1.tgz#21bac888b6ed8601f831ce7816e335bc779f0a4a"
   integrity sha512-ISBaA8xQNmwELC7eOjqFKMESB2VIqt4PPDD0nsS95b/9dZXvVKOlz9keMSnoGGKcOHXfTvDD6WMaRoSc9UuhRA==
-
-picostate@^1.4.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/picostate/-/picostate-1.4.0.tgz#32cf6fa67195fe53964788bc45ea4276ed229269"
-  integrity sha512-TPSzMJv45xNi1navjYiK6Ec3WAnHeuD3fL00Dq1Cflhly2F2eZFb2yOepu1xvCNHlMurzdk8PuTiSa2YGC8kWg==
 
 pidtree@^0.3.0:
   version "0.3.0"
