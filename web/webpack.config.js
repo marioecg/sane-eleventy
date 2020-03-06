@@ -16,7 +16,7 @@ const paths = {
 module.exports = {
   mode: isProd ? 'production' : 'development',
   entry: {
-    main: `${paths.src}/scripts/index.js`,
+    main: `${paths.src}/scripts/app.js`,
     style: `${paths.src}/styles/index.scss`,
   },
   output: {
